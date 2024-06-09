@@ -17,10 +17,10 @@ Then design an app using python Flask API to call the analyzed end-points.
 - Flask API
 
 ## Process and steps of the analysis 
-1 Use the SQLAlchemy create_engine() function to connect to your SQLite database.
-2 Use the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
-3 Link Python to the database by creating a SQLAlchemy session.
-4 Retrieve the data to the app using Flask API.
+- Use the SQLAlchemy create_engine() function to connect to your SQLite database.
+- Use the SQLAlchemy automap_base() function to reflect your tables into classes, and then save references to the classes named station and measurement.
+- Link Python to the database by creating a SQLAlchemy session.
+- Retrieve the data to the app using Flask API.
 
 ## Area of analyzed
 1.	Find the most recent date in the dataset.
@@ -45,9 +45,9 @@ Then design an app using python Flask API to call the analyzed end-points.
 
 ## Folders and files
 - SurfsUp folder (root folder).
- - climate_starter.ipynb (Analysis codes of the project)
- - app.py (Source code of the app)
+  - climate_starter.ipynb (Analysis codes of the project)
+  - app.py (Source code of the app)
 - Resources folder. 
- - hawaii.sqlite (Temperature and Precipitation data of each stations)
+  - hawaii.sqlite (Temperature and Precipitation data of each stations)
 
 
