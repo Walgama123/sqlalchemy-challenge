@@ -7,8 +7,7 @@ and design an app that would help you to plan a vacation trip in advance.
 
 
 ## Methodology 
-Using the Python and SQLAlchemy to do a basic climate analysis and data exploration of the climate database. 
-
+Using the Python and SQLAlchemy to do a basic climate analysis and data exploration of the climate database.
 Then design an app using python Flask API to call the analyzed end-points.
 
 ## Tools and python libraries used
@@ -35,20 +34,20 @@ Then design an app using python Flask API to call the analyzed end-points.
 9.	Details of the most active station (Min , Max and Avg Temperature) and plot the data.
 
 ## Routs of the app
-1.	/api/v1.0/precipitation
+- /api/v1.0/precipitation
  - Retrieve the temperature of the last twelve months.
-2.	/api/v1.0/stations
+- /api/v1.0/stations
  - Return a JSON list of stations from the dataset.
-3.	/api/v1.0/tobs
+- /api/v1.0/tobs
  - Query the dates and temperature observations of the most-active station for the previous year of data.
-4.	/api/v1.0/<start> and /api/v1.0/<start>/<end>
+- /api/v1.0/<start> and /api/v1.0/<start>/<end>
  - Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 
 ## Folders and files
-1. SurfsUp folder (root folder).
+- SurfsUp folder (root folder).
  - climate_starter.ipynb (Analysis codes of the project)
  - app.py (Source code of the app)
-2.	Resources folder. 
+- Resources folder. 
  - hawaii.sqlite (Temperature and Precipitation data of each stations)
 
 
