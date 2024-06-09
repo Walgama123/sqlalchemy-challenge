@@ -35,13 +35,13 @@ Then design an app using python Flask API to call the analyzed end-points.
 
 ## Routs of the app
 - /api/v1.0/precipitation
- - Retrieve the temperature of the last twelve months.
+  - Retrieve the temperature of the last twelve months.
 - /api/v1.0/stations
- - Return a JSON list of stations from the dataset.
+  - Return a JSON list of stations from the dataset.
 - /api/v1.0/tobs
- - Query the dates and temperature observations of the most-active station for the previous year of data.
+  - Query the dates and temperature observations of the most-active station for the previous year of data.
 - /api/v1.0/<start> and /api/v1.0/<start>/<end>
- - Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
+  - Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
 
 ## Folders and files
 - SurfsUp folder (root folder).
